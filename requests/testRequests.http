@@ -1,0 +1,12 @@
+GET http://localhost:8080/halls/2
+Accept: application/json
+
+###
+
+GET http://localhost:8080/movies/1
+Accept: application/json
+
+###
+
+GET http://localhost:8080/sessions/3
+Accept: application/json
