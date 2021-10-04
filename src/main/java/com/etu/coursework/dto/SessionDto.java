@@ -8,6 +8,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
+import java.math.BigDecimal;
 import java.util.Date;
 
 @Data
@@ -28,7 +29,7 @@ public class SessionDto {
     private Date startTime;
     @NotNull
     @Positive
-    private Double price;
+    private BigDecimal price;
     @NotNull
     @Positive
     private Integer soldTickets;
